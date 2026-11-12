@@ -19,6 +19,12 @@ const projects = [
     url: 'https://github.com/chandem/road-asset-management-system', live: 'https://road-asset-management-system.vercel.app'
   },
   {
+    number: '03', name: 'AI-RMMS', type: 'AI-POWERED ROAD MAINTENANCE',
+    description: 'A road maintenance management platform bringing road assets, machinery, finance, human resources and general assets into coordinated, department-specific workflows, with GIS capabilities.',
+    tags: ['React', 'TypeScript', 'Supabase', 'GIS', 'AI'], icon: MapPinned,
+    url: 'https://github.com/chandem/road-maintenance-management-system', live: ''
+  },
+  {
     number: '03', name: 'AI Document Processing', type: 'DOCUMENT INTELLIGENCE',
     description: 'A document intelligence workflow for extracting, organizing and reviewing construction information, including BOQ data and searchable knowledge.',
     tags: ['Python', 'AI', 'React', 'Supabase'], icon: FileSearch,
@@ -153,7 +159,7 @@ function App() {
               <span className="section-kicker">03 — SELECTED WORK</span>
               <h2>Projects that solve real problems.</h2>
             </div>
-            <p>Selected work across construction technology, asset management, document intelligence and estimation.</p>
+            <p>Selected work across construction technology, road maintenance, asset management, document intelligence and estimation.</p>
           </div>
           <div className="project-list">
             {projects.map((p) => {
