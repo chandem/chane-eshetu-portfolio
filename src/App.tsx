@@ -25,19 +25,19 @@ const projects = [
     url: 'https://github.com/chandem/road-maintenance-management-system', live: ''
   },
   {
-    number: '03', name: 'AI Document Processing', type: 'DOCUMENT INTELLIGENCE',
+    number: '04', name: 'AI Document Processing', type: 'DOCUMENT INTELLIGENCE',
     description: 'A document intelligence workflow for extracting, organizing and reviewing construction information, including BOQ data and searchable knowledge.',
     tags: ['Python', 'AI', 'React', 'Supabase'], icon: FileSearch,
     url: 'https://github.com/chandem/ai-document-processing', live: ''
   },
   {
-    number: '04', name: 'Construction Cost Estimation', type: 'ESTIMATION & QUANTITY',
+    number: '05', name: 'Construction Cost Estimation', type: 'ESTIMATION & QUANTITY',
     description: 'A digital tool for construction quantity and cost estimation, supporting more structured estimating workflows.',
     tags: ['Python', 'React', 'Engineering'], icon: Layers3,
     url: 'https://github.com/chandem/construction-cost-estimation', live: ''
   },
   {
-    number: '05', name: 'Machinery Maintenance Management', type: 'EQUIPMENT & MAINTENANCE',
+    number: '06', name: 'Machinery Maintenance Management', type: 'EQUIPMENT & MAINTENANCE',
     description: 'A maintenance management application for equipment records, work orders and operational visibility.',
     tags: ['React', 'TypeScript', 'Operations'], icon: Wrench,
     url: 'https://github.com/chandem/Machinery-maintenance-management-system', live: 'https://machinery-maintenance-management-sy.vercel.app'
