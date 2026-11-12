@@ -10,7 +10,7 @@ const projects = [
     number: '01', name: 'AI Construction OS', type: 'CONSTRUCTION TECHNOLOGY',
     description: 'An AI-centered operating platform connecting project planning, engineering quantities, BOQ, cost estimation, field operations and project intelligence.',
     tags: ['React', 'AI', 'GIS', 'Supabase'], icon: Workflow,
-    url: 'https://github.com/chandem/ai-construction-os', live: ''
+    url: 'https://github.com/chandem/ai-construction-os', live: 'https://ai-costruction-os.vercel.app'
   },
   {
     number: '02', name: 'RoadMI', type: 'ROAD ASSET MANAGEMENT',
