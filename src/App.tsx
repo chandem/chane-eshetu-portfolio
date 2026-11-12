@@ -16,13 +16,13 @@ const projects = [
     number: '02', name: 'RoadMI', type: 'ROAD ASSET MANAGEMENT',
     description: 'A road asset management system for inventory, road sections, GPS-based asset tracking, inspections, defects and condition assessment.',
     tags: ['React', 'TypeScript', 'GIS', 'Supabase'], icon: MapPinned,
-    url: 'https://github.com/chandem/road-asset-management-system', live: 'https://road-asset-management-system.vercel.app'
+    url: 'https://github.com/chandem/road-asset-management-system', live: ''
   },
   {
     number: '03', name: 'AI-RMMS', type: 'AI-POWERED ROAD MAINTENANCE',
     description: 'A road maintenance management platform bringing road assets, machinery, finance, human resources and general assets into coordinated, department-specific workflows, with GIS capabilities.',
     tags: ['React', 'TypeScript', 'Supabase', 'GIS', 'AI'], icon: MapPinned,
-    url: 'https://github.com/chandem/road-maintenance-management-system', live: ''
+    url: 'https://github.com/chandem/road-maintenance-management-system', live: 'https://road-maintenance-management-system.vercel.app'
   },
   {
     number: '04', name: 'AI Document Processing', type: 'DOCUMENT INTELLIGENCE',
@@ -40,7 +40,7 @@ const projects = [
     number: '06', name: 'Machinery Maintenance Management', type: 'EQUIPMENT & MAINTENANCE',
     description: 'A maintenance management application for equipment records, work orders and operational visibility.',
     tags: ['React', 'TypeScript', 'Operations'], icon: Wrench,
-    url: 'https://github.com/chandem/Machinery-maintenance-management-system', live: 'https://machinery-maintenance-management-sy.vercel.app'
+    url: 'https://github.com/chandem/Machinery-maintenance-management-system', live: ''
   },
 ]
 
