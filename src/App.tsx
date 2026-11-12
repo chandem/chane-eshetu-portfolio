@@ -204,7 +204,7 @@ function App() {
             <h2>Let's build something <em>useful</em>.</h2>
             <p className="contact-copy">Open to collaborations, roles and projects at the intersection of infrastructure, software and AI.</p>
             <div className="social-links">
-              <a href="mailto:your.email@example.com"><Mail size={18} /> your.email@example.com</a>
+              <a href="mailto:chaneeshetu93@gmail.com"><Mail size={18} /> chaneeshetu93@gmail.com</a>
               <a href="https://github.com/chandem" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
               <a href="https://www.linkedin.com/in/chane-eshetu" target="_blank" rel="noreferrer"><Linkedin size={18} /> LinkedIn</a>
             </div>
