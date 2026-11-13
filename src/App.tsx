@@ -77,7 +77,7 @@ function App() {
             <p className="hero-lede">I’m Chane Eshetu — a civil engineer and software engineer focused on practical digital solutions for infrastructure, road systems, and construction operations.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
-              <a className="button button-quiet" href="#contact">Hire me <ArrowUpRight size={17} /></a>
+              <a className="button button-quiet" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
             </div>
             <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>ENGINEERING TOOLS FOR THE REAL WORLD</span></div>
           </div>
