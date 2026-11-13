@@ -58,18 +58,19 @@ function App() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
+    <a className="skip-link" href="#main-content">Skip to content</a>
     <div className="site-shell">
       <div className="grain" aria-hidden="true" />
       <header className="topbar">
         <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">CE</span><span>CHANE ESHETU<span className="brand-sub">CIVIL ENGINEER • SOFTWARE ENGINEER • AI BUILDER</span></span></a>
-        <button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
-        <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
+        <button className="menu-toggle" aria-label="Toggle navigation" aria-expanded={menuOpen} aria-controls="site-navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
+        <nav id="site-navigation" className={menuOpen ? 'nav-links open' : 'nav-links'}>
           {nav.map(([label, href]) => <a key={label} href={href} onClick={closeMenu}>{label}</a>)}
           <a className="nav-cta" href="#contact" onClick={closeMenu}>Open to opportunities <ArrowUpRight size={15} /></a>
         </nav>
       </header>
 
-      <main>
+      <main id="main-content">
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
             <div className="eyebrow"><span className="status-dot" /> OPEN TO MEANINGFUL OPPORTUNITIES</div>
@@ -79,13 +80,13 @@ function App() {
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
               <a className="button button-quiet" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
             </div>
-            <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>CIVIL ENGINEER • SOFTWARE ENGINEER • AI BUILDER</span></div>
+            <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>10+ YEARS IN CIVIL ENGINEERING</span></div>
           </div>
           <div className="hero-art">
             <div className="orbit orbit-one" /><div className="orbit orbit-two" />
             <div className="art-grid" />
             <div className="art-card main-art-card">
-              <div className="art-top"><span className="art-index">CE / 01</span><span className="live-indicator">● LIVE</span></div>
+              <div className="art-top"><span className="art-index">CE / 01</span><span className="live-indicator">● DIGITAL BUILDER</span></div>
               <div className="monogram">CE</div>
               <div className="art-bottom">CIVIL ENGINEER · SOFTWARE ENGINEER · AI BUILDER</div>
             </div>
@@ -143,7 +144,7 @@ function App() {
               <div className="exp-block">
                 <span className="mono-label">SOFTWARE ENGINEERING</span>
                 <h3>Full-stack product development</h3>
-                <p>Building modern web applications with React, TypeScript, and practical product thinking to solve real infrastructure and operations problems.</p>
+                <p>Designing and building modern web applications with React, TypeScript, and practical product thinking for infrastructure and operations.</p>
               </div>
               <div className="exp-block">
                 <span className="mono-label">AI & DIGITAL TOOLS</span>
@@ -159,31 +160,23 @@ function App() {
             <span className="section-kicker">02.5 — FEATURED CASE STUDY</span>
             <h2>AI-powered systems for engineering teams.</h2>
           </div>
-          <div className="featured-card">
-            <div className="featured-copy">
-              <span className="mono-label">CASE STUDY</span>
-              <h3>Building decision support for construction and infrastructure workflows.</h3>
-              <p>I design systems that bring together project data, engineering review, asset information, and operational insights into a single, usable workflow for teams working in fast-moving environments.</p>
-              <ul className="feature-points">
-                <li>Connected planning, cost, asset, and monitoring information in one platform.</li>
-                <li>Reduced friction in review-heavy engineering workflows through structured digital tools.</li>
-                <li>Applied AI and data-driven logic to support faster, clearer project decisions.</li>
-              </ul>
-            </div>
-            <div className="featured-panel">
-              <div className="mini-stat">
-                <span>01</span>
-                <strong>Project intelligence</strong>
-              </div>
-              <div className="mini-stat">
-                <span>02</span>
-                <strong>Operational visibility</strong>
-              </div>
-              <div className="mini-stat">
-                <span>03</span>
-                <strong>AI-assisted workflows</strong>
-              </div>
-            </div>
+          <div className="live-work-grid">
+            <article className="live-work-card construction-live">
+              <div className="live-work-top"><span className="mono-label">01 / CONSTRUCTION INTELLIGENCE</span><span className="live-pill"><span className="status-dot" /> LIVE</span></div>
+              <div className="live-work-icon"><Workflow size={25} /></div>
+              <h3>AI Construction OS</h3>
+              <p>A connected workspace for construction planning, engineering review, BOQ workflows, project intelligence, and operational decisions.</p>
+              <div className="live-work-tags"><span>AI workflows</span><span>Project data</span><span>GIS</span></div>
+              <a className="live-work-link" href="https://ai-costruction-os.vercel.app" target="_blank" rel="noreferrer">Explore live platform <ArrowUpRight size={17} /></a>
+            </article>
+            <article className="live-work-card rmms-live">
+              <div className="live-work-top"><span className="mono-label">02 / ROAD MAINTENANCE</span><span className="live-pill"><span className="status-dot" /> LIVE</span></div>
+              <div className="live-work-icon"><MapPinned size={25} /></div>
+              <h3>AI-RMMS</h3>
+              <p>A road maintenance management platform connecting road assets, machinery, finance, HR, and department-specific operations.</p>
+              <div className="live-work-tags"><span>Road assets</span><span>Department workflows</span><span>GIS</span></div>
+              <a className="live-work-link" href="https://road-maintenance-management-system.vercel.app" target="_blank" rel="noreferrer">Explore live platform <ArrowUpRight size={17} /></a>
+            </article>
           </div>
         </section>
 
