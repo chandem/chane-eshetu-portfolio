@@ -74,14 +74,15 @@ function App() {
       <main id="main-content">
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
-            <div className="eyebrow"><span className="status-dot" /> OPEN TO MEANINGFUL OPPORTUNITIES</div>
-            <h1>I’m Chane Eshetu, a Civil Engineer and Software Developer focused on building practical digital solutions for construction, roads, and infrastructure.</h1>
-            <p className="hero-lede">I combine hands-on engineering knowledge with software development and applied AI to improve how infrastructure projects and assets are planned, managed, and maintained.</p>
+            <div className="eyebrow"><span className="status-dot" /> OPEN TO AI & CONSTRUCTION-TECH ROLES</div>
+            <h1>I build digital tools for construction and infrastructure.</h1>
+            <p className="hero-lede">I’m Chane Eshetu, a Civil Engineer and Software Developer combining more than a decade of engineering experience with software development and applied AI.</p>
+            <div className="hero-proof" aria-label="Professional highlights"><span><strong>10+</strong> years in civil engineering</span><span><strong>6</strong> software projects</span><span><strong>ETH</strong> based in Ethiopia</span></div>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
               <a className="button button-quiet" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
             </div>
-            <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>10+ YEARS IN CIVIL ENGINEERING</span></div>
+            
           </div>
           <div className="hero-art">
             <div className="orbit orbit-one" /><div className="orbit orbit-two" />
