@@ -58,8 +58,9 @@ function App() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <a className="skip-link" href="#main-content">Skip to content</a>
-    <div className="site-shell">
+    <>
+      <a className="skip-link" href="#main-content">Skip to content</a>
+      <div className="site-shell">
       <div className="grain" aria-hidden="true" />
       <header className="topbar">
         <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">CE</span><span>CHANE ESHETU<span className="brand-sub">CIVIL ENGINEER • SOFTWARE ENGINEER • AI BUILDER</span></span></a>
@@ -253,7 +254,8 @@ function App() {
           <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   )
 }
 
