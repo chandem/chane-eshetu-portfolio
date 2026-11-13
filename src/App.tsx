@@ -242,7 +242,6 @@ function App() {
               <a href="mailto:chaneeshetu93@gmail.com"><Mail size={18} /> chaneeshetu93@gmail.com</a>
               <a href="https://github.com/chandem" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
               <a href="https://www.linkedin.com/in/chane-eshetu-4a1688171/" target="_blank" rel="noreferrer"><Linkedin size={18} /> LinkedIn</a>
-              <a href="mailto:chaneeshetu93@gmail.com?subject=Request%20CV"><ArrowUpRight size={18} /> Request CV</a>
             </div>
           </div>
         </section>
