@@ -8,37 +8,37 @@ import {
 const projects = [
   {
     number: '01', name: 'AI Construction OS', type: 'CONSTRUCTION TECHNOLOGY',
-    description: 'An AI-centered operating platform connecting project planning, engineering quantities, BOQ, cost estimation, field operations and project intelligence.',
+    description: 'An AI-powered operating platform for planning, quantity review, BOQ workflows, project intelligence, and operational decision-making across construction projects.',
     tags: ['React', 'AI', 'GIS', 'Supabase'], icon: Workflow,
     url: 'https://github.com/chandem/ai-construction-os', live: 'https://ai-costruction-os.vercel.app'
   },
   {
     number: '02', name: 'RoadMI', type: 'ROAD ASSET MANAGEMENT',
-    description: 'A road asset management system for inventory, road sections, GPS-based asset tracking, inspections, defects and condition assessment.',
+    description: 'A road asset management system for inventory tracking, inspection workflows, defect monitoring, and condition assessment across road networks.',
     tags: ['React', 'TypeScript', 'GIS', 'Supabase'], icon: MapPinned,
     url: 'https://github.com/chandem/road-asset-management-system', live: ''
   },
   {
     number: '03', name: 'AI-RMMS', type: 'AI-POWERED ROAD MAINTENANCE',
-    description: 'A road maintenance management platform bringing road assets, machinery, finance, human resources and general assets into coordinated, department-specific workflows, with GIS capabilities.',
+    description: 'A maintenance management platform connecting road assets, finance, machinery, HR, and departmental operations into a unified decision-support system.',
     tags: ['React', 'TypeScript', 'Supabase', 'GIS', 'AI'], icon: MapPinned,
     url: 'https://github.com/chandem/road-maintenance-management-system', live: 'https://road-maintenance-management-system.vercel.app'
   },
   {
     number: '04', name: 'AI Document Processing', type: 'DOCUMENT INTELLIGENCE',
-    description: 'A document intelligence workflow for extracting, organizing and reviewing construction information, including BOQ data and searchable knowledge.',
+    description: 'A document intelligence workflow for extracting, organizing, and reviewing engineering information from construction documents and BOQ data.',
     tags: ['Python', 'AI', 'React', 'Supabase'], icon: FileSearch,
     url: 'https://github.com/chandem/ai-document-processing', live: ''
   },
   {
     number: '05', name: 'Construction Cost Estimation', type: 'ESTIMATION & QUANTITY',
-    description: 'A digital tool for construction quantity and cost estimation, supporting more structured estimating workflows.',
+    description: 'A digital estimation workflow supporting structured quantity takeoff, cost analysis, and more transparent construction planning.',
     tags: ['Python', 'React', 'Engineering'], icon: Layers3,
     url: 'https://github.com/chandem/construction-cost-estimation', live: ''
   },
   {
     number: '06', name: 'Machinery Maintenance Management', type: 'EQUIPMENT & MAINTENANCE',
-    description: 'A maintenance management application for equipment records, work orders and operational visibility.',
+    description: 'A maintenance management application for equipment tracking, work orders, and operational visibility across maintenance teams.',
     tags: ['React', 'TypeScript', 'Operations'], icon: Wrench,
     url: 'https://github.com/chandem/Machinery-maintenance-management-system', live: ''
   },
@@ -65,7 +65,7 @@ function App() {
         <button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           {nav.map(([label, href]) => <a key={label} href={href} onClick={closeMenu}>{label}</a>)}
-          <a className="nav-cta" href="#contact" onClick={closeMenu}>Let's talk <ArrowUpRight size={15} /></a>
+          <a className="nav-cta" href="#contact" onClick={closeMenu}>Open to opportunities <ArrowUpRight size={15} /></a>
         </nav>
       </header>
 
@@ -73,11 +73,11 @@ function App() {
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
             <div className="eyebrow"><span className="status-dot" /> OPEN TO MEANINGFUL OPPORTUNITIES</div>
-            <h1>Building at the intersection of <em>engineering</em>, software & <span className="accent">AI.</span></h1>
-            <p className="hero-lede">I'm Chane Eshetu — a Civil Engineer and Software Engineer turning real-world construction challenges into practical digital solutions.</p>
+            <h1>Civil Engineer + Software Engineer building AI tools for roads, infrastructure, and construction.</h1>
+            <p className="hero-lede">I’m Chane Eshetu — a civil engineer and software engineer focused on practical digital solutions for infrastructure, road systems, and construction operations.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
-              <a className="button button-quiet" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
+              <a className="button button-quiet" href="#contact">Hire me <ArrowUpRight size={17} /></a>
             </div>
             <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>ENGINEERING TOOLS FOR THE REAL WORLD</span></div>
           </div>
@@ -98,7 +98,7 @@ function App() {
         <section className="intro-strip">
           <div className="strip-inner section-wrap">
             <span>PROFILE</span>
-            <p>Civil Engineer · ALX Software Engineering graduate · Building practical tools for infrastructure and construction.</p>
+            <p>Civil Engineer · Software Engineer · Building practical tools for construction, roads, and infrastructure.</p>
             <span className="strip-symbol">◇</span>
           </div>
         </section>
@@ -110,17 +110,18 @@ function App() {
           </div>
           <div className="about-grid">
             <div className="about-lead">
-              <p className="large-copy">I work where civil engineering meets software and AI — designing tools that make project planning, estimation, asset management and field operations more reliable and transparent.</p>
-              <p>My background spans road works, site supervision, BOQ preparation and quantity/cost estimation, combined with modern web development and applied AI workflows.</p>
+              <p className="large-copy">I work at the intersection of engineering, software, and AI — building practical systems that improve planning, estimation, asset management, and operational decision-making in the built environment.</p>
+              <p>My background spans civil engineering, road works, site supervision, BOQ preparation, quantity and cost estimation, and modern software development.</p>
+              <p>I build tools that help engineering and operations teams make better decisions using data, workflows, and AI-driven insights.</p>
             </div>
             <div className="about-side">
               <div className="info-card">
                 <span className="mono-label">FOCUS</span>
-                <p>Construction technology, road asset management, document intelligence and estimation systems.</p>
+                <p>Construction technology, road asset management, document intelligence, and estimation systems.</p>
               </div>
               <div className="info-card">
                 <span className="mono-label">APPROACH</span>
-                <p>Practical products grounded in real engineering workflows — not demos for their own sake.</p>
+                <p>Practical products grounded in real engineering workflows — built to solve meaningful problems, not just look impressive.</p>
               </div>
             </div>
           </div>
@@ -136,18 +137,18 @@ function App() {
               <div className="timeline-marker" /><div className="timeline-marker second" />
               <div className="exp-block">
                 <span className="mono-label">CIVIL ENGINEERING</span>
-                <h3>Road works & construction practice</h3>
-                <p>Hands-on experience with road construction, site supervision, quantity take-off, BOQ and cost estimation — the domain knowledge that shapes the tools I build.</p>
+                <h3>Road works and construction practice</h3>
+                <p>Hands-on experience in road works, site supervision, quantity takeoff, BOQ preparation, and cost estimation — forming the foundation for the systems I build.</p>
               </div>
               <div className="exp-block">
                 <span className="mono-label">SOFTWARE ENGINEERING</span>
-                <h3>ALX Africa · Full-stack development</h3>
-                <p>Intensive software engineering training focused on modern web technologies, problem-solving and shipping production-ready applications.</p>
+                <h3>Full-stack product development</h3>
+                <p>Building modern web applications with React, TypeScript, and practical product thinking to solve real infrastructure and operations problems.</p>
               </div>
               <div className="exp-block">
-                <span className="mono-label">PRODUCT BUILDING</span>
-                <h3>AI-powered construction tools</h3>
-                <p>Designing and developing platforms that connect planning, estimation, asset data and operations for infrastructure and construction teams.</p>
+                <span className="mono-label">AI & DIGITAL TOOLS</span>
+                <h3>Practical intelligence for engineering workflows</h3>
+                <p>Designing AI and digital systems that connect project data, documents, asset records, and operational workflows into useful decisions.</p>
               </div>
             </div>
           </div>
@@ -159,7 +160,7 @@ function App() {
               <span className="section-kicker">03 — SELECTED WORK</span>
               <h2>Projects that solve real problems.</h2>
             </div>
-            <p>Selected work across construction technology, road maintenance, asset management, document intelligence and estimation.</p>
+            <p>Selected work across construction technology, road maintenance, asset management, document intelligence, and estimation systems.</p>
           </div>
           <div className="project-list">
             {projects.map((p) => {
@@ -201,14 +202,14 @@ function App() {
               )
             })}
           </div>
-          <p className="skills-note"><CheckCircle2 size={16} /> Comfortable moving between domain engineering, product thinking and implementation.</p>
+          <p className="skills-note"><CheckCircle2 size={16} /> Comfortable moving between domain engineering, product thinking, and implementation.</p>
         </section>
 
         <section className="contact-section" id="contact">
           <div className="contact-inner section-wrap">
             <span className="section-kicker">05 — CONTACT</span>
             <h2>Let's build something <em>useful</em>.</h2>
-            <p className="contact-copy">Open to collaborations, roles and projects at the intersection of infrastructure, software and AI.</p>
+            <p className="contact-copy">Open to roles, collaborations, and projects at the intersection of infrastructure, software, and AI.</p>
             <div className="social-links">
               <a href="mailto:chaneeshetu93@gmail.com"><Mail size={18} /> chaneeshetu93@gmail.com</a>
               <a href="https://github.com/chandem" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
