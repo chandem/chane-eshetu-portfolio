@@ -154,6 +154,39 @@ function App() {
           </div>
         </section>
 
+        <section className="featured-section section-wrap" id="featured">
+          <div className="section-heading">
+            <span className="section-kicker">02.5 — FEATURED CASE STUDY</span>
+            <h2>AI-powered systems for engineering teams.</h2>
+          </div>
+          <div className="featured-card">
+            <div className="featured-copy">
+              <span className="mono-label">CASE STUDY</span>
+              <h3>Building decision support for construction and infrastructure workflows.</h3>
+              <p>I design systems that bring together project data, engineering review, asset information, and operational insights into a single, usable workflow for teams working in fast-moving environments.</p>
+              <ul className="feature-points">
+                <li>Connected planning, cost, asset, and monitoring information in one platform.</li>
+                <li>Reduced friction in review-heavy engineering workflows through structured digital tools.</li>
+                <li>Applied AI and data-driven logic to support faster, clearer project decisions.</li>
+              </ul>
+            </div>
+            <div className="featured-panel">
+              <div className="mini-stat">
+                <span>01</span>
+                <strong>Project intelligence</strong>
+              </div>
+              <div className="mini-stat">
+                <span>02</span>
+                <strong>Operational visibility</strong>
+              </div>
+              <div className="mini-stat">
+                <span>03</span>
+                <strong>AI-assisted workflows</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="content-section section-wrap" id="projects">
           <div className="projects-heading">
             <div>
@@ -214,6 +247,7 @@ function App() {
               <a href="mailto:chaneeshetu93@gmail.com"><Mail size={18} /> chaneeshetu93@gmail.com</a>
               <a href="https://github.com/chandem" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
               <a href="https://www.linkedin.com/in/chane-eshetu-4a1688171/" target="_blank" rel="noreferrer"><Linkedin size={18} /> LinkedIn</a>
+              <a href="mailto:chaneeshetu93@gmail.com?subject=Request%20CV"><ArrowUpRight size={18} /> Request CV</a>
             </div>
           </div>
         </section>
