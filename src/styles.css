@@ -64,3 +64,41 @@ body{color:#F1F5F9;background:#0B1220}
 .live-work-card:hover{border-color:rgba(45,212,191,.38)}
 .project-links a:hover,.social-links a:hover{background:rgba(45,212,191,.08)}
 @media(prefers-reduced-motion:no-preference){.button-primary:hover{box-shadow:0 16px 36px rgba(45,212,191,.22)}}
+
+
+/* Mobile-first hero and recruiter clarity refinements */
+.hero-proof{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 24px}
+.hero-proof span{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid rgba(148,163,184,.24);border-radius:999px;background:rgba(20,34,56,.72);color:#CBD5E1;font-size:12px;line-height:1.35}
+.hero-proof strong{color:#2DD4BF;font-family:'Space Grotesk','Inter',sans-serif;font-size:14px}
+.hero-meta{color:#CBD5E1}
+.hero-lede,.about-lead p,.info-card p,.exp-block p,.project-info p,.skill-card p,.contact-copy,.projects-heading>p{color:#CBD5E1}
+.brand-sub{color:#CBD5E1}
+.nav-links{color:#CBD5E1}
+.strip-inner span:first-child,.card-top,.footer-inner span:not(.footer-brand),.scroll-cue{color:#CBD5E1}
+.hero{padding-top:24px;min-height:600px}
+.hero h1{max-width:690px}
+@media(max-width:640px){
+  .topbar{height:64px;padding:0 18px}
+  .brand{gap:10px;letter-spacing:.1em;font-size:12px}
+  .brand-mark{width:36px;height:36px}
+  .brand-sub{display:none}
+  .hero{padding-top:28px;padding-bottom:34px;gap:22px;min-height:0}
+  .eyebrow{font-size:10px;letter-spacing:.09em;padding:7px 10px}
+  .hero h1{font-size:clamp(2rem,8vw,2.75rem);line-height:1.08;letter-spacing:-.045em;margin:17px 0 13px;max-width:100%}
+  .hero-lede{font-size:15px;line-height:1.6;margin:0 0 17px;color:#CBD5E1}
+  .hero-proof{gap:7px;margin-bottom:18px}
+  .hero-proof span{font-size:11px;padding:7px 9px}
+  .hero-actions{display:flex;flex-wrap:nowrap;gap:10px;width:100%}
+  .hero-actions .button{flex:1 1 0;min-width:0;padding:13px 10px;font-size:13px;white-space:nowrap}
+  .hero-art{min-height:340px}
+  .scroll-cue{display:none}
+  .content-section{padding-top:64px;padding-bottom:64px}
+  .featured-section{padding-top:64px}
+  .experience-inner{padding-top:64px;padding-bottom:64px}
+  .contact-inner{padding-top:64px;padding-bottom:64px}
+  .section-heading{margin-bottom:30px}
+}
+@media(max-width:360px){
+  .hero-actions .button{font-size:12px;padding:12px 7px;gap:6px}
+  .hero-proof span{font-size:10px}
+}
