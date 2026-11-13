@@ -61,7 +61,7 @@ function App() {
     <div className="site-shell">
       <div className="grain" aria-hidden="true" />
       <header className="topbar">
-        <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">CE</span><span>CHANE ESHETU<span className="brand-sub">ENGINEERING / SOFTWARE / AI</span></span></a>
+        <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">CE</span><span>CHANE ESHETU<span className="brand-sub">CIVIL ENGINEER • SOFTWARE ENGINEER • AI BUILDER</span></span></a>
         <button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           {nav.map(([label, href]) => <a key={label} href={href} onClick={closeMenu}>{label}</a>)}
@@ -73,13 +73,13 @@ function App() {
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
             <div className="eyebrow"><span className="status-dot" /> OPEN TO MEANINGFUL OPPORTUNITIES</div>
-            <h1>Civil Engineer + Software Engineer building AI tools for roads, infrastructure, and construction.</h1>
-            <p className="hero-lede">I’m Chane Eshetu — a civil engineer and software engineer focused on practical digital solutions for infrastructure, road systems, and construction operations.</p>
+            <h1>I’m Chane Eshetu — a Civil Engineer and Software Engineer building practical digital tools for roads, construction, and infrastructure.</h1>
+            <p className="hero-lede">I work at the intersection of engineering, software, and AI to solve real-world problems in construction, asset management, and infrastructure systems.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
               <a className="button button-quiet" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
             </div>
-            <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>ENGINEERING TOOLS FOR THE REAL WORLD</span></div>
+            <div className="hero-meta"><span>BASED IN ETHIOPIA</span><span className="meta-line" /><span>CIVIL ENGINEER • SOFTWARE ENGINEER • AI BUILDER</span></div>
           </div>
           <div className="hero-art">
             <div className="orbit orbit-one" /><div className="orbit orbit-two" />
@@ -98,7 +98,7 @@ function App() {
         <section className="intro-strip">
           <div className="strip-inner section-wrap">
             <span>PROFILE</span>
-            <p>Civil Engineer · Software Engineer · Building practical tools for construction, roads, and infrastructure.</p>
+            <p>Civil Engineer • Software Engineer • Building practical tools for infrastructure, roads, and construction.</p>
             <span className="strip-symbol">◇</span>
           </div>
         </section>
@@ -110,9 +110,9 @@ function App() {
           </div>
           <div className="about-grid">
             <div className="about-lead">
-              <p className="large-copy">I work at the intersection of engineering, software, and AI — building practical systems that improve planning, estimation, asset management, and operational decision-making in the built environment.</p>
+              <p className="large-copy">I’m a Civil Engineer by training and a Software Engineer by practice. I build practical digital solutions that connect engineering workflows, project data, and AI-driven decision-making to improve how infrastructure and construction projects are planned, managed, and delivered.</p>
               <p>My background spans civil engineering, road works, site supervision, BOQ preparation, quantity and cost estimation, and modern software development.</p>
-              <p>I build tools that help engineering and operations teams make better decisions using data, workflows, and AI-driven insights.</p>
+              <p>I turn real-world engineering challenges into software and AI-powered solutions that make work smarter, faster, and more effective.</p>
             </div>
             <div className="about-side">
               <div className="info-card">
