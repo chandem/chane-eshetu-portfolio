@@ -74,7 +74,7 @@ function App() {
       <main id="main-content">
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
-            <div className="eyebrow"><span className="status-dot" /> OPEN TO AI & CONSTRUCTION-TECH ROLES</div>
+            <div className="eyebrow"><span className="status-dot" /> OPEN TO ENGINEERING, SOFTWARE & AI OPPORTUNITIES</div>
             <h1>I build digital tools for construction and infrastructure.</h1>
             <p className="hero-lede">I’m Chane Eshetu, a Civil Engineer and Software Developer combining more than a decade of engineering experience with software development and applied AI.</p>
             <div className="hero-proof" aria-label="Professional highlights"><span><strong>10+</strong> years in civil engineering</span><span><strong>6</strong> software projects</span><span><strong>ETH</strong> based in Ethiopia</span></div>
