@@ -184,7 +184,7 @@ function App() {
         <section className="content-section section-wrap" id="projects">
           <div className="projects-heading">
             <div>
-              <span className="section-kicker">03 — SELECTED WORK</span>
+              <span className="section-kicker">04 — SELECTED WORK</span>
               <h2>Projects that solve real problems.</h2>
             </div>
             <p>A selection of software projects addressing construction management, road maintenance, asset management, document processing, and cost estimation.</p>
@@ -214,7 +214,7 @@ function App() {
 
         <section className="content-section section-wrap" id="skills">
           <div className="section-heading">
-            <span className="section-kicker">04 — CAPABILITIES</span>
+            <span className="section-kicker">05 — CAPABILITIES</span>
             <h2>Engineering knowledge meets digital skills.</h2>
           </div>
           <div className="skills-grid">
@@ -234,7 +234,7 @@ function App() {
 
         <section className="contact-section" id="contact">
           <div className="contact-inner section-wrap">
-            <span className="section-kicker">05 — CONTACT</span>
+            <span className="section-kicker">06 — CONTACT</span>
             <h2>Let’s create solutions that make a <em>difference</em>.</h2>
             <p className="contact-copy">I welcome opportunities, collaborations, and projects where engineering experience, software, and AI can create practical value.</p>
             <div className="social-links">
