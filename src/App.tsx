@@ -47,7 +47,7 @@ const projects = [
 const skills = [
   { title: 'Frontend development', items: 'React · TypeScript · JavaScript · HTML · CSS', icon: Code2 },
   { title: 'AI & intelligent systems', items: 'Python · AI/ML foundations · Document AI · AI workflows', icon: BrainCircuit },
-  { title: 'Civil & construction', items: 'Road works · Site supervision · BOQ · Quantity & cost estimation', icon: Building2 },
+  { title: 'Civil & construction', items: 'Roads · Buildings · Bridges · Site supervision · BOQ preparation · Quantity takeoff & cost estimation', icon: Building2 },
   { title: 'Platforms & tools', items: 'Supabase · GitHub · Vercel · Render · GIS', icon: Layers3 },
 ]
 
