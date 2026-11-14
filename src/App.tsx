@@ -51,7 +51,7 @@ const skills = [
   { title: 'Platforms & tools', items: 'Supabase · GitHub · Vercel · Render · GIS', icon: Layers3 },
 ]
 
-const nav = [['About', '#about'], ['Experience', '#experience'], ['Projects', '#projects'], ['Skills', '#skills'], ['Contact', '#contact']]
+const nav = [['About', '#about'], ['Experience', '#experience'], ['Education', '#education'], ['Projects', '#projects'], ['Skills', '#skills'], ['Contact', '#contact']]
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -157,9 +157,28 @@ function App() {
           </div>
         </section>
 
+        <section className="education-section section-wrap" id="education">
+          <div className="section-heading">
+            <span className="section-kicker">03 — EDUCATION</span>
+            <h2>Engineering foundations. <em>Digital skills.</em></h2>
+          </div>
+          <div className="education-grid">
+            <article className="education-card">
+              <span className="education-index">01 / CIVIL ENGINEERING</span>
+              <h3>BSc in Civil Engineering</h3>
+              <p className="education-institution">Bahir Dar University</p>
+            </article>
+            <article className="education-card">
+              <span className="education-index">02 / SOFTWARE ENGINEERING</span>
+              <h3>Software Engineering — Frontend</h3>
+              <p className="education-institution">ALX Africa</p>
+            </article>
+          </div>
+        </section>
+
         <section className="featured-section section-wrap" id="featured">
           <div className="section-heading">
-            <span className="section-kicker">03 — LIVE PLATFORMS</span>
+            <span className="section-kicker">04 — LIVE PLATFORMS</span>
             <h2>Digital platforms for construction and road maintenance.</h2>
           </div>
           <div className="live-work-grid">
@@ -185,7 +204,7 @@ function App() {
         <section className="content-section section-wrap" id="projects">
           <div className="projects-heading">
             <div>
-              <span className="section-kicker">04 — SELECTED WORK</span>
+              <span className="section-kicker">05 — SELECTED WORK</span>
               <h2>Projects that solve real problems.</h2>
             </div>
             <p>A selection of software projects addressing construction management, road maintenance, asset management, document processing, and cost estimation.</p>
@@ -215,7 +234,7 @@ function App() {
 
         <section className="content-section section-wrap" id="skills">
           <div className="section-heading">
-            <span className="section-kicker">05 — CAPABILITIES</span>
+            <span className="section-kicker">06 — CAPABILITIES</span>
             <h2>Engineering knowledge meets digital skills.</h2>
           </div>
           <div className="skills-grid">
@@ -235,7 +254,7 @@ function App() {
 
         <section className="contact-section" id="contact">
           <div className="contact-inner section-wrap">
-            <span className="section-kicker">06 — CONTACT</span>
+            <span className="section-kicker">07 — CONTACT</span>
             <h2>Let’s create solutions that make a <em>difference</em>.</h2>
             <p className="contact-copy">I welcome opportunities, collaborations, and projects where engineering experience, software, and AI can create practical value.</p>
             <div className="social-links">
