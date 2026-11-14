@@ -93,7 +93,7 @@ function App() {
               <div className="art-bottom">CIVIL ENGINEER · SOFTWARE DEVELOPER · AI INNOVATOR</div>
             </div>
             <div className="chip chip-top">AI × CONSTRUCTION</div>
-            <div className="chip chip-bottom">ROADS · BOQ · ESTIMATION</div>
+            <div className="chip chip-bottom">CIVIL ENGINEERING · SOFTWARE · AI</div>
           </div>
           <div className="scroll-cue">SCROLL <ArrowDown size={14} /></div>
         </section>
