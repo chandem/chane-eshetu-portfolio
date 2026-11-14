@@ -102,3 +102,49 @@ body{color:#F1F5F9;background:#0B1220}
   .hero-actions .button{font-size:12px;padding:12px 7px;gap:6px}
   .hero-proof span{font-size:10px}
 }
+
+
+/* Premium visual polish: restrained amber accents, depth and consistency */
+:root{
+  --amber:#F5B942;
+  --surface-raised:#182B43;
+  --surface-border:rgba(148,163,184,.2);
+}
+::selection{background:rgba(45,212,191,.28);color:#F8FAFC}
+h1,h2,h3{ text-wrap:balance }
+p{ text-wrap:pretty }
+.section-kicker{color:#5EEAD4}
+.eyebrow .status-dot{box-shadow:0 0 0 4px rgba(45,212,191,.1),0 0 16px rgba(45,212,191,.55)}
+.hero-proof span{border-color:rgba(148,163,184,.2);background:linear-gradient(145deg,rgba(20,34,56,.9),rgba(16,28,45,.76))}
+.hero-proof span:nth-child(2) strong{color:var(--amber)}
+.brand-mark{position:relative;overflow:hidden}
+.brand-mark::after{content:'';position:absolute;inset:0;border-radius:inherit;background:linear-gradient(135deg,rgba(45,212,191,.12),rgba(245,185,66,.12));pointer-events:none}
+.intro-strip{background:linear-gradient(100deg,#111D30,#142238 55%,#111D30)}
+.info-card,.exp-block,.skill-card{box-shadow:0 14px 34px rgba(0,0,0,.12)}
+.info-card:hover,.exp-block:hover,.skill-card:hover{background:linear-gradient(145deg,#182B43,#142238)}
+.project-row{border-color:var(--surface-border);box-shadow:0 16px 38px rgba(0,0,0,.12)}
+.project-number{color:var(--amber)}
+.project-icon{border-color:rgba(45,212,191,.2);background:rgba(45,212,191,.055)}
+.project-links a{border-color:rgba(148,163,184,.2)}
+.project-links a:hover,.social-links a:hover{color:#5EEAD4}
+.live-work-card{box-shadow:0 18px 42px rgba(0,0,0,.16)}
+.live-work-card:nth-child(2) .live-work-icon{color:var(--amber);border-color:rgba(245,185,66,.24);background:rgba(245,185,66,.07)}
+.live-work-card:nth-child(2) .live-work-link{color:var(--amber)}
+.live-work-card:nth-child(2) .live-pill{color:#F5C96B;border-color:rgba(245,185,66,.25)}
+.live-work-card:nth-child(2) .live-pill .status-dot{background:var(--amber);box-shadow:0 0 12px rgba(245,185,66,.55)}
+.live-work-tags span{background:rgba(255,255,255,.025)}
+.skill-card{border-color:var(--surface-border)}
+.skill-card:nth-child(even) svg{color:var(--amber)}
+.skills-note svg{color:var(--accent);flex:0 0 auto}
+.contact-section{background:radial-gradient(ellipse at 82% 18%,rgba(45,212,191,.075),transparent 40%),radial-gradient(ellipse at 12% 90%,rgba(245,185,66,.035),transparent 38%),#101C2D}
+.social-links a{border-color:rgba(148,163,184,.2)}
+.footer-inner{border-top:1px solid rgba(148,163,184,.12)}
+.button:focus-visible,.nav-links a:focus-visible,.project-links a:focus-visible,.social-links a:focus-visible{outline-offset:5px}
+@media(max-width:640px){
+  .hero-proof span{background:rgba(20,34,56,.88)}
+  .project-row,.live-work-card,.skill-card,.info-card,.exp-block{box-shadow:0 10px 26px rgba(0,0,0,.13)}
+  .live-work-card{min-height:0}
+  .live-work-link{padding-top:22px}
+  .section-heading h2,.experience-inner h2,.contact-inner h2{font-size:clamp(32px,9vw,44px)}
+  .footer-inner{gap:12px}
+}
