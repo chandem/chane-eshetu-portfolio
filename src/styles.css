@@ -148,3 +148,14 @@ p{ text-wrap:pretty }
   .section-heading h2,.experience-inner h2,.contact-inner h2{font-size:clamp(32px,9vw,44px)}
   .footer-inner{gap:12px}
 }
+
+
+/* Education */
+.education-section{padding-top:88px;padding-bottom:88px;border-top:1px solid var(--line)}
+.education-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.education-card{min-height:205px;padding:28px;border:1px solid var(--surface-border);border-radius:20px;background:linear-gradient(145deg,#142238,#101C2D);box-shadow:0 16px 38px rgba(0,0,0,.12);transition:transform .22s ease,border-color .22s ease}
+.education-card:hover{transform:translateY(-3px);border-color:rgba(45,212,191,.38)}
+.education-index{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.13em;color:var(--accent)}
+.education-card h3{margin:25px 0 9px;font-size:clamp(22px,2.5vw,29px);letter-spacing:-.04em;line-height:1.15}
+.education-institution{margin:0;color:var(--soft);font-size:15px;line-height:1.7}
+@media(max-width:640px){.education-section{padding-top:64px;padding-bottom:64px}.education-grid{grid-template-columns:1fr}.education-card{min-height:175px;padding:23px}.education-card h3{margin-top:20px}}
